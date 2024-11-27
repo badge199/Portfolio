@@ -1,0 +1,20 @@
+
+.projects {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectCard {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.projectCard:hover {
+  transform: scale(1.05);
+  background-color: #ddd;
+}
